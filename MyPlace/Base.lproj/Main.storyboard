@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Free Delivery-->
         <scene sceneID="ZuC-dj-Dzz">
             <objects>
                 <tableViewController id="7ek-kW-odW" customClass="MainViewController" customModule="MyPlace" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="7ek-kW-odW" id="NnD-D4-qvM"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="PyZ-HU-WyB"/>
+                    <navigationItem key="navigationItem" title="Free Delivery" id="PyZ-HU-WyB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxq-KM-sVs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,6 +59,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Vw-ro-THn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="7ek-kW-odW" kind="relationship" relationship="rootViewController" id="I9P-2E-fqR"/>
